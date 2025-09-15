@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sai Venkat — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-text">
+        <div class="name">Thota Sai Venkat</div>
+        <div class="role">Aspiring Software Developer · B.Tech CSE-AIML</div>
+      </div>
+      <div class="avatar-wrap">
+
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="controls">
+      <a href="sde_saivenkat-final.pdf" style="text-decoration: none;"><button  id="downloadResume" class="btn btn-primary">⬇ Download Resume</button></a>
+      <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌓</button>
+      <button class="hamburger" id="hamburger" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1 class="headline">Hi — I'm <span class="accent">Sai Venkat</span></h1>
+                <img src="Passport.jpg" alt="Sai Venkat" class="avatar">
+        <p class="lead">I build intuitive software and learning systems. Currently focused on Java, Python (AI/ML), and full-stack web development.</p>
+        <div class="cta-row">
+          <a style="text-decoration: none;" href="#projects" class="btn btn-outline">See Projects</a>
+          <a style="text-decoration: none;" href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="glass-card">
+          <h3>Educational Background</h3>
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-header">B.Tech</button>
+              <div class="accordion-content">
+                <p><strong>Branch:</strong> Computer Science (AI/ML)</p>
+                <p><strong>College:</strong> Tirumala Engineering College</p>
+                <p><strong>Year:</strong> 2023 – Present</p>
+                <p><strong>CGPA:</strong> 8.24</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">Intermediate</button>
+              <div class="accordion-content">
+                <p><strong>College:</strong> Modern jr College </p>
+                <p><strong>Year:</strong> 2021 – 2023</p>
+                <p><strong>Percentage:</strong> 92%</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">SSC</button>
+              <div class="accordion-content">
+                <p><strong>School:</strong> St. Xavier's high School</p>
+                <p><strong>Year:</strong> 2020 – 2021</p>
+                <p><strong>GPA:</strong> 10/10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-grid">
+        <div class="skill"><h4>Languages</h4><p>Java • Python • C • Typescript</p></div>
+        <div class="skill"><h4>Web</h4><p>HTML • CSS • JavaScript • React (learning)</p></div>
+        <div class="skill"><h4>Tools</h4><p>Git • GitHub • VSCode • Eclipse</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" data-anim>
+          <div class="project-badge">Java</div>
+          <h3>Smart Home Automation Simulator</h3>
+          <p>Designed a simulator for controlling and automating home devices virtually.Implemented device control, scheduling, and monitoring features.Focused on creating an interactive and user-friendly simulation environment.Enhanced performance by applying object-oriented design patterns for scalability.</p>
+          <div class="project-actions">
+            <a href="https://github.com/sai-venkat27/Smart-Home-Automation-Stimulator" class="btn btn-sm" target="_blank" style="text-decoration: none; color: white;" >GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-anim>
+          <div class="project-badge">Python</div>
+          <h3>Bank Management System</h3>
+          <p>Built a console-based application to manage customer accounts and transactions.Implemented core banking functions such as deposit, withdrawal, and balance inquiry.Designed the system with modular functions for readability and maintainability.Added input validation and error handling to ensure secure and reliable operations.</p>
+          <div class="project-actions">
+            <a href="https://github.com/sai-venkat27/Python-Bank-Management-System" class="btn btn-sm" target="_blank" style="text-decoration: none; color: white;" >GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-anim>
+          <div class="project-badge">Web</div>
+          <h3>To-Do List (PWA)</h3>
+          <p>Built a responsive To-Do List app using HTML, CSS, and JavaScript.Added features to add, delete, and mark tasks as completed.Used localStorage to persist tasks across browser sessions.</p>
+          <div class="project-actions">
+            <a href="https://github.com/sai-venkat27/To-do-List-App" class="btn btn-sm" target="_blank" style="text-decoration: none; color: white;" >GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-anim>
+          <div class="project-badge">React</div>
+          <h3>Quiz Application</h3>
+          <p>Engineered a React quiz application, utilizing a component-based architecture for a clean and scalable codebase.Implemented conditional rendering to efficiently control the UI flow, presenting questions and final scores at the right time.Developed a modular front-end, simplifying maintenance and ensuring a smooth, responsive user experience.</p>
+          <div class="project-actions">
+            <a href="https://github.com/sai-venkat27/Quiz-application" class="btn btn-sm" target="_blank" style="text-decoration: none; color: white;" >GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert">Web Development — Internfort</div>
+        <div class="cert">Software Development — CodeTech</div>
+        <div class="cert">TCS iON Career Edge — Young Professional</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact">
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn">Send</button>
+            <button type="button" id="clearForm" class="btn btn-ghost">Clear</button>
+          </div>
+        </form>
+
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/sai-venkat-thota-4b692b341" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/sai-venkat27" target="_blank"><i data-lucide="github"></i> GitHub</a>
+          <a href="mailto:thotasaivenkat27@gmail.com"><i data-lucide="mail"></i> Gmail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 Sai Venkat</div>
+    <div class="small">Thank you for visiting 😊</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
