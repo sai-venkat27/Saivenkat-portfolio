@@ -1,3 +1,6 @@
+*{
+  font-family: ari;
+}
 :root {
   --bg: #0f1724;
   --card: #0b1220aa;
@@ -171,6 +174,7 @@ body {
 }
 
 .accordion-header {
+  color: royalblue;
   width:100%;
   background:none;
   border:none;
@@ -267,7 +271,30 @@ body {
   padding:6px 10px;
   font-size:13px;
 }
+/*Certifications*/
 
+.cert-grid{
+  display:auto;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.cert{
+  margin: 10px;
+  background:var(--glass);
+  border:1px solid var(--glass-border);
+  border-radius:12px;
+  padding:12px;
+}
+.down-cert{
+  margin-top:5px;
+  padding:8px 14px;
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+  font-weight:600;
+background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:#fff;
+}
 /* Contact */
 .contact {
   background:var(--glass);
@@ -378,4 +405,5 @@ body {
   }
 
   .hero {grid-template-columns:1fr; padding:20px;}
-}
+    }
+    
